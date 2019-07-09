@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  button {
+    margin: 10px;
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    background-color: seagreen;
+    color: white;
+    opacity: 0.8;
+    transition: 0.3s;
+    &:focus {
+      outline: 0;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  textarea {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+  }
+
+  .copy {
+    width: 300px;
+  }
+}
