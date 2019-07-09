@@ -23,7 +23,7 @@ const App = () => {
       <h2>Enter your JSON below to be formatted</h2>
       <textarea value={textValue} onChange={handleTextValue} />
       <Button buttonName="Reset" buttonAction={resetTextArea} />
-      <p style={{ textAlign: "left" }}>{textValue ? "Click to Copy" : ""}</p>
+      <p style={{ textAlign: "left" }}>{textValue ? "Click to Highlight" : ""}</p>
       <ClickToSelect>
         <JSONPretty
           id="json-pretty"
